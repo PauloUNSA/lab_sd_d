@@ -1,14 +1,16 @@
+package lab03.propuestos;
+
 import java.io.*;
 import java.net.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
-// the server that can be run as a console
+// el cliente puede ser corrido por consola
 public class Server {
-    // a unique ID for each connection
+    // un ID unico para cada conexion
     private static int uniqueId;
-    // an ArrayList to keep the list of the Client
+    // un ArrayList para guaradar la lista de clientes
     private ArrayList<ClientThread> al;
-    // to display time
+    // para mostar
     private SimpleDateFormat sdf;
     // the port number to listen for connection
     private int port;
