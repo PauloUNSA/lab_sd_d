@@ -1,3 +1,5 @@
+package lab01.propuesto1;
+
 public class Main {
     public static void main(String[] args) {
         CubbyHole cub = new CubbyHole();

@@ -1,3 +1,5 @@
+package lab02.propuestos.ejBerkeley;
+
 import java.util.*;
 
 public class TimeCoordinator {

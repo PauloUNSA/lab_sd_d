@@ -1,3 +1,5 @@
+package lab01.propuesto1;
+
 public class CubbyHole {
     public int contents;
     public boolean available = false;

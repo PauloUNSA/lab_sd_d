@@ -1,3 +1,5 @@
+package lab02.propuestos.ej01.src;
+
 import java.io.*;
 import java.net.*;
 

@@ -1,3 +1,5 @@
+package lab01.propuesto1;
+
 public class Productor extends Thread {
     public CubbyHole cubbyhole;
     public int numero;
