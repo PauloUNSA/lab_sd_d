@@ -5,7 +5,7 @@ public class CreditServer {
         try {
             CreditInterface obj = new CreditImpl();
             Naming.rebind("rmi://localhost:1099/CreditService", obj);
-            System.out.println("Servidor listo");
+            System.out.println("Servidor listo y funcionando :D");
         } catch (Exception e) {
             System.out.println("Error: " + e);
         }
