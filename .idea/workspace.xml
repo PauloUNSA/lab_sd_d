@@ -151,11 +151,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client2" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Cliente lab2" />
-      <item itemvalue="Application.Cristian algoritm" />
       <item itemvalue="Application.ServerSide" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client2" />
+      <item itemvalue="Application.Cristian algoritm" />
+      <item itemvalue="Application.Cliente lab2" />
     </list>
     <recent_temporary>
       <list>
