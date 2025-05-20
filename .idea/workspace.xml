@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b7fd1cc-e614-4861-8ee3-ada3f1d5f3a9" name="Changes" comment="resuelto lab 2">
-      <change afterPath="$PROJECT_DIR$/.idea/lab_sd_d.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/ClienteSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/Medicine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/MedicineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/ServerSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/ServerSideModified.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/StockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicina/StockInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/ClienteSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/Medicine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/MedicineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/ServerSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/StockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medicinas/StockInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02/resuelto/lamport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_sd_d.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/resuelto/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/resuelto/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/resuelto/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/resuelto/Servidor.java" afterDir="false" />
+    <list default="true" id="5b7fd1cc-e614-4861-8ee3-ada3f1d5f3a9" name="Changes" comment="PROPUESTO lab 4">
+      <change afterPath="$PROJECT_DIR$/lab05/Ej01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab05/NEW.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab05/otr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/calculadorarmi/CalculatorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/calculadorarmi/CalculatorClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +58,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CalculatorServer.executor&quot;: &quot;Run&quot;,
     &quot;Application.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Client2.executor&quot;: &quot;Run&quot;,
     &quot;Application.Cliente lab2.executor&quot;: &quot;Run&quot;,
@@ -168,11 +151,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerSide" />
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client2" />
-      <item itemvalue="Application.Cristian algoritm" />
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Cliente lab2" />
+      <item itemvalue="Application.Cristian algoritm" />
+      <item itemvalue="Application.ServerSide" />
     </list>
     <recent_temporary>
       <list>
@@ -207,6 +190,9 @@
       <workItem from="1746552598049" duration="96000" />
       <workItem from="1746553981522" duration="3765000" />
       <workItem from="1747094213204" duration="4979000" />
+      <workItem from="1747156326680" duration="1634000" />
+      <workItem from="1747312720849" duration="81000" />
+      <workItem from="1747328818799" duration="4671000" />
     </task>
     <task id="LOCAL-00001" summary="ejercicios propuestos">
       <option name="closed" value="true" />
@@ -240,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746554361072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PROPUESTO lab 4">
+      <option name="closed" value="true" />
+      <created>1747156393304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747156393304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +246,8 @@
     <MESSAGE value="traduccion a medias" />
     <MESSAGE value="arreglo de empaquetamiento" />
     <MESSAGE value="resuelto lab 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="resuelto lab 2" />
+    <MESSAGE value="PROPUESTO lab 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROPUESTO lab 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

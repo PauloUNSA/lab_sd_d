@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libro [
+    <!-- Aquí comienza el DTD -->
+    <!ELEMENT libro (portada, cuerpo, contraportada)>
+    <!ELEMENT portada (titulo, edicion, autor, editor)>
+        <!-- Nueva declaracion -->
+    <!ELEMENT contraportada (fecha)>
+    <!ELEMENT cuerpo (SUMARIO)>
+    <!ELEMENT SUMARIO (SECCION)>
+    <!ELEMENT SECCION (TIT-SECCION, APARTADO)>
+    <!ELEMENT APARTADO (ORGANISMO, PARRAFO)>
+    <!ELEMENT PARRAFO (TEXTO, PAGINA)>
+    <!ELEMENT TEXTO (LEY, RD, RES, ORDEN)>
+    <!ELEMENT fecha (AAAA, MM, DD)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos, email?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+        <!-- Nuevos elementos -->
+    <!ELEMENT cuerpo (#PCDATA)>
+    <!ELEMENT cuerpo (#PCDATA)>
+    <!ELEMENT contraportada (#PCDATA)>
+    <!ELEMENT editor (#PCDATA)>
+    <!ELEMENT AAAA (#PCDATA)>
+    <!ELEMENT MM (#PCDATA)>
+    <!ELEMENT DD (#PCDATA)>
+    <!ELEMENT SECCION (#PCDATA)>
+    <!ELEMENT TIT-SECCION (#PCDATA)>
+    <!ELEMENT APARTADO (#PCDATA)>
+    <!ELEMENT ORGANISMO (#PCDATA)>
+    <!ELEMENT PARRAFO (#PCDATA)>
+    <!ELEMENT LEY (#PCDATA)>
+    <!ELEMENT RD (#PCDATA)>
+    <!ELEMENT RES (#PCDATA)>
+    <!ELEMENT PAGINA (#PCDATA)>
+    <!-- Aquí termina el DTD -->
+    ]>
+<libro>
+    <portada>
+        <titulo>BOLETIN OFICIAL DEL ESTADO</titulo>
+        <edicion>1ra edicion</edicion>
+        <autor>
+            <nombre>Paulo Andre</nombre>
+            <apellidos>Hidalgo Chinchay</apellidos>
+        </autor>
+        <editor>Intellij</editor>
+    </portada>
+    <cuerpo>
+        <SUMARIO>
+            <SECCION>
+                <TIT-SECCION>I. Disposiciones Generales</TIT-SECCION>
+                <APARTADO>
+                    <ORGANISMO>MINISTERIO DE ASUNTOS EXTERIORES</ORGANISMO>
+                    <PARRAFO>
+                        <TEXTO>
+                            <LEY>Ley 1/2001 de 5 de marzo</LEY>, de la cesión gratuita
+                            a las Comunidades Autónomas el Impuesto sobre Animales y
+                            Cosas establecido por el <RD>REAL DECRETO 13/1991</RD>.
+                        </TEXTO>
+                        <PAGINA>11290</PAGINA>
+                    </PARRAFO>
+                    <PARRAFO>
+                        <TEXTO>
+                            <ORDEN>ORDEN de 28 de febrero de 2001</ORDEN> por la ...
+                        </TEXTO>
+                        <PAGINA>11290</PAGINA>
+                        <PAGINA>11291</PAGINA>
+                    </PARRAFO>
+                </APARTADO>
+                <APARTADO>
+                    <ORGANISMO>MINISTERIO DE HACIENDA</ORGANISMO>
+                    <PARRAFO>
+                        <TEXTO>
+                            <RD>REAL DECRETO 285/2001</RD>, de 19 de marzo, sobre ...
+                        </TEXTO>
+                        <PAGINA>11291</PAGINA>
+                        <PAGINA>11292</PAGINA>
+                        <PAGINA>11293</PAGINA>
+                        <PAGINA>11294</PAGINA>
+                    </PARRAFO>
+                </APARTADO>
+                <APARTADO>
+                    <ORGANISMO>MINISTERIO DE FOMENTO</ORGANISMO>
+                    <PARRAFO>
+                        <TEXTO>
+                            CORRECCIÓN de erratas de la Orden ...
+                        </TEXTO>
+                        <PAGINA>11291</PAGINA>
+                        <PAGINA>11292</PAGINA>
+                        <PAGINA>11293</PAGINA>
+                        <PAGINA>11294</PAGINA>
+                    </PARRAFO>
+                </APARTADO>
+            </SECCION>
+            <SECCION>
+                <TIT-SECCION>II. Autoridades y Personal</TIT-SECCION>
+                <APARTADO>
+                    <ORGANISMO>CORTES GENERALES</ORGANISMO>
+                    <PARRAFO>
+                        <TEXTO>
+                            <RES>RESOLUCIÓN de 19 de marzo de 2001</RES>, de la ...
+                        </TEXTO>
+                        <PAGINA>11294</PAGINA>
+                        <PAGINA>11295</PAGINA>
+                    </PARRAFO>
+                </APARTADO>
+                <APARTADO>
+                    <ORGANISMO>MINISTERIO DE ASUNTOS EXTERIORES</ORGANISMO>
+                    <PARRAFO>
+                        <TEXTO>
+                            <RD>REAL DECRETO 314/2001</RD>, de 24 de marzo, por el ...
+                        </TEXTO>
+                        <PAGINA>11291</PAGINA>
+                        <PAGINA>11292</PAGINA>
+                        <PAGINA>11293</PAGINA>
+                        <PAGINA>11294</PAGINA>
+                    </PARRAFO>
+                </APARTADO>
+            </SECCION>
+        </SUMARIO>
+    </cuerpo>
+    <contraportada>
+        <fecha><AAAA>2001</AAAA><MM>03</MM><DD>27</DD></fecha>
+    </contraportada>
+</libro>
